@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    height: 100vh;           /* Chiều cao 100% của viewport */
+    margin: 0; 
+      
+}
+.thetong{
+    border:2px solid black;
+    border-radius:30px;
+    padding:40px 20px;
+}
+/* Phần đầu */
+.header_card{
+    margin-left:130px;
+}
+/* Phần thứ 2 */
+.container2_card{
+    margin-left:20px;
+    margin-right:20px;
+    width:100%;
+}
+.container2_card form{
+    display:flex;
+    align-items:center;
+    height:45px;
+}
+.email_form__container2_card{
+    background-color:rgb(222, 216, 216);
+    padding:3px 10px;
+    height:45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top:10px;
+}
+.container2_card form input{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid rgb(222, 216, 216);    /* Màu trắng cho cạnh trên */
+    border-right: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh phải */
+    border-bottom: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh dưới */
+    border-left: 2px solid black; 
+    background-color:rgb(222, 216, 216);
+    
+}
+.container2_card form i{
+    border:black;
+    height:40px;
+}
+
+.container2_card p{
+    margin-bottom:0;
+    margin-left:10px; 
+
+}
+.input_form__container2_card{
+    width:270px;
+    height:45px;    
+    
+}
+/* Phần thứ 3 */
+.container3_card{
+    margin-left:20px;
+    margin-right:20px;
+    width:100%;
+    margin-top:10px;
+}
+.password_form__container3_card{
+    padding:3px 10px;
+    background-color:rgb(222, 216, 216);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:45px;
+    place-items:center;
+    padding-top:10px;
+}
+.container3_card form{
+    display:flex;
+    align-items:center;
+    height:40px;
+}
+.container3_card form i{
+    
+}
+.container3_card form input{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid rgb(222, 216, 216);    /* Màu trắng cho cạnh trên */
+    border-right: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh phải */
+    border-bottom: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh dưới */
+    border-left: 2px solid black; 
+    background-color:rgb(222, 216, 216);
+    
+}
+.container3_card p{
+    margin-bottom:0;
+    margin-left:10px; 
+
+}
+.input_form__container3_card{
+    width:270px;
+    height:45px;
+    
+}
+/* Phần thứ 4 */
+.container4_card{
+    margin-left:20px;
+    margin-right:20px;
+    width:100%;
+    margin-top:10px;
+}
+.password_form__container4_card{
+    padding:3px 10px;
+    background-color:rgb(222, 216, 216);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:45px;
+    place-items:center;
+    padding-top:10px;
+}
+.container4_card form{
+    display:flex;
+    align-items:center;
+    height:40px;
+}
+.container4_card form i{
+    
+}
+.container4_card form input{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid rgb(222, 216, 216);    /* Màu trắng cho cạnh trên */
+    border-right: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh phải */
+    border-bottom: 2px solid rgb(222, 216, 216);  /* Màu trắng cho cạnh dưới */
+    border-left: 2px solid black; 
+    background-color:rgb(222, 216, 216);
+    
+}
+.container4_card p{
+    margin-bottom:0;
+    margin-left:10px; 
+
+}
+.input_form__container4_card{
+    width:270px;
+    height:45px;
+    
+}
+
+/* Phần thứ 5 */
+.button{
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:auto;
+    width:100px;
+    background-color:rgb(34, 34, 162);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+    margin-top:40px;
+}
+.button:hover{
+    opacity:0.8;
+    transform:ease-in-out 0.3s all;
+}
+#signin_button{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+}
